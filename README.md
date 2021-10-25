@@ -24,11 +24,11 @@ This method will return the question record, if question-id has a valid value.
 
 Post method on result path will create a new session record, if there is optional data it will be include on the record it will then return session-id for updat  or delete operations. 
 
-### put('/result', {sid: <session-id>, ...{result-data}})
+### put('/result', {sid: **session-id**, ...{result-data}})
 
 Put method will update the the session record, if session-id is valid, with the data provided by the client side.
 
-### delete('/result?sid=<session-id>')
+### delete('/result?sid=(session-id)')
 
 Delete method will remove the record from the DB, is session-id can be found.
 
