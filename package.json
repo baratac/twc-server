@@ -1,0 +1,23 @@
+{
+    "name": "cab-teamway",
+    "version": "1.0.0",
+    "description": "Teamway challenge deployment",
+    "exports": "./index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js  --watchAll --verbose"
+    },
+    "jest": {
+        "transform": {},
+        "testPathIgnorePatterns": ["/node_modules/", "./.data/"],
+        "modulePathIgnorePatterns": ["./.data/"]
+    },
+    "author": "CAB21x65",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^27.3.1",
+        "lodash": "^4.17.21",
+        "lowdb": "^3.0.0",
+        "nanoid": "^3.1.30"
+    }
+}

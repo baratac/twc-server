@@ -1,0 +1,453 @@
+{
+  "sessions": [
+    {
+      "id": "oh50mSjovE",
+      "start": "2021-10-18T23:13:32.197Z",
+      "gender": "female",
+      "age": 56,
+      "answers": {
+        "1": "2",
+        "2": "1",
+        "5": "2"
+      },
+      "lastUpdate": "2021-10-23T14:49:41.109Z"
+    },
+    {
+      "id": "c5JDsJixiK",
+      "start": "2021-10-25T00:11:09.693Z",
+      "dTest": "2021-10-25T00:11:09.678Z",
+      "answers": {
+        "2": {
+          "answer": "3",
+          "weight": 50
+        },
+        "3": {
+          "answer": "1",
+          "weight": 80
+        },
+        "4": {
+          "answer": "2",
+          "weight": 60
+        },
+        "5": {
+          "answer": "3",
+          "weight": 70
+        },
+        "6": {
+          "answer": "3",
+          "weight": 40
+        }
+      },
+      "totalScore": 300,
+      "maxScore": 390,
+      "minScore": 150,
+      "lastUpdate": "2021-10-25T00:11:22.337Z"
+    },
+    {
+      "id": "VJXnb5i5X3",
+      "start": "2021-10-25T22:25:54.340Z",
+      "test": "post",
+      "answers": {
+        "4": "3"
+      },
+      "lastUpdate": "2021-10-25T22:25:54.376Z"
+    },
+    {
+      "id": "oZ8b6jaA4i",
+      "start": "2021-10-25T22:46:58.934Z",
+      "answers": {
+        "2": {
+          "answer": "4",
+          "weight": 30
+        },
+        "3": {
+          "answer": "3",
+          "weight": 50
+        },
+        "4": {
+          "answer": "4",
+          "weight": 30
+        },
+        "5": {
+          "answer": "1",
+          "weight": 80
+        },
+        "6": {
+          "answer": "4",
+          "weight": 20
+        }
+      },
+      "totalScore": 210,
+      "maxScore": 390,
+      "minScore": 150,
+      "lastUpdate": "2021-10-25T22:47:10.842Z"
+    }
+  ],
+  "questionsNum": 14,
+  "questions": [
+    {
+      "id": 1,
+      "question": "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Don’t dare to interrupt them",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Think it’s more important to give them some of your time; work can wait",
+          "weight": 70
+        },
+        {
+          "id": 3,
+          "answer": "Listen, but with only with half an ear",
+          "weight": 70
+        },
+        {
+          "id": 4,
+          "answer": "Interrupt and explain that you are really busy at the moment",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Look at your watch every two minutes",
+          "weight": 40
+        },
+        {
+          "id": 2,
+          "answer": "Bubble with inner anger, but keep quiet",
+          "weight": 70
+        },
+        {
+          "id": 3,
+          "answer": "Explain to other equally impatient people in the room that the doctor is always running late",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Complain in a loud voice, while tapping your foot impatiently ",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Don’t dare contradict them",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Think that they are obviously right",
+          "weight": 60
+        },
+        {
+          "id": 3,
+          "answer": "Defend your own point of view, tooth and nail",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Continuously interrupt your colleague",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You are taking part in a guided tour of a museum. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Are a bit too far towards the back so don’t really hear what the guide is saying ",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Follow the group without question",
+          "weight": 60
+        },
+        {
+          "id": 3,
+          "answer": "Make sure that everyone is able to hear properly",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Are right up the front, adding your own comments in a loud voice",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During dinner parties at your home, you have a hard time with people who: ",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Ask you to tell a story in front of everyone else",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Talk privately between themselves",
+          "weight": 40
+        },
+        {
+          "id": 3,
+          "answer": "Hang around you all evening",
+          "weight": 70
+        },
+        {
+          "id": 4,
+          "answer": "Always drag the conversation back to themselves",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "You crack a joke at work, but nobody seems to have noticed. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Think it’s for the best — it was a lame joke anyway",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Wait to share it with your friends after work",
+          "weight": 40
+        },
+        {
+          "id": 3,
+          "answer": "Try again a bit later with one of your colleagues",
+          "weight": 40
+        },
+        {
+          "id": 4,
+          "answer": "Keep telling it until they pay attention",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "This morning, your agenda seems to be free. You: ",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Know that somebody will find a reason to come and bother you",
+          "weight": 60
+        },
+        {
+          "id": 2,
+          "answer": "Heave a sigh of relief and look forward to a day without stress",
+          "weight": 70
+        },
+        {
+          "id": 3,
+          "answer": "Question your colleagues about a project that’s been worrying you",
+          "weight": 30
+        },
+        {
+          "id": 4,
+          "answer": "Pick up the phone and start filling up your agenda with meetings",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "During dinner, the discussion moves to a subject about which you know nothing at all. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Don’t dare show that you don’t know anything about the subject",
+          "weight": 50
+        },
+        {
+          "id": 2,
+          "answer": "Barely follow the discussion",
+          "weight": 70
+        },
+        {
+          "id": 3,
+          "answer": "Ask lots of questions to learn more about it",
+          "weight": 30
+        },
+        {
+          "id": 4,
+          "answer": "Change the subject of discussion",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You’re out with a group of friends and there’s a person who’s quite shy and doesn’t talk much. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Notice that they’re alone, but don’t go over to talk with them",
+          "weight": 80
+        },
+        {
+          "id": 2,
+          "answer": "Go and have a chat with them",
+          "weight": 40
+        },
+        {
+          "id": 3,
+          "answer": "Shoot some friendly smiles in their direction",
+          "weight": 70
+        },
+        {
+          "id": 4,
+          "answer": "Hardly notice them at all",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "At work, somebody asks for your help for the hundredth time. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Give them a hand, as usual",
+          "weight": 60
+        },
+        {
+          "id": 2,
+          "answer": "Accept — you’re known for being helpful",
+          "weight": 50
+        },
+        {
+          "id": 3,
+          "answer": "Ask them, please, to find somebody else for a change",
+          "weight": 40
+        },
+        {
+          "id": 4,
+          "answer": "Loudly make it known that you’re annoyed",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "You’ve been see a movie with your family and the reviews are mixed. You: ",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Don’t share your point of view with anyone",
+          "weight": 60
+        },
+        {
+          "id": 2,
+          "answer": "Didn’t like the film, but keep your views to yourself when asked",
+          "weight": 80
+        },
+        {
+          "id": 3,
+          "answer": "State your point of view with enthusiasm",
+          "weight": 20
+        },
+        {
+          "id": 4,
+          "answer": "Try to bring the others round to your point of view",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A friend arrives late for your meeting. You: ",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Say, ‘It’s not a problem,’ even if that’s not what you really think",
+          "weight": 70
+        },
+        {
+          "id": 2,
+          "answer": "Give them a filthy look and sulk for the rest of the evening",
+          "weight": 50
+        },
+        {
+          "id": 3,
+          "answer": "Tell them, ‘You’re too much! Have you seen the time?’ ",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Make a scene in front of everyone",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You can’t find your car keys. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Don’t want anyone to find out, so you take the bus instead",
+          "weight": 90
+        },
+        {
+          "id": 2,
+          "answer": "Panic and search madly without asking anyone for help",
+          "weight": 80
+        },
+        {
+          "id": 3,
+          "answer": "Grumble without telling your family why you’re in a bad mood",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Accuse those around you for misplacing them",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "It’s time for your annual appraisal with your boss. You:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Go with great hesitation as these sessions are torture for you",
+          "weight": 70
+        },
+        {
+          "id": 2,
+          "answer": "Look forward to hearing what your boss thinks about you and expects from you",
+          "weight": 50
+        },
+        {
+          "id": 3,
+          "answer": "Rehearse ad nauseam the arguments and ideas that you’ve prepared for the meeting",
+          "weight": 50
+        },
+        {
+          "id": 4,
+          "answer": "Go along unprepared as you are confident and like improvising",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}
