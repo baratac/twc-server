@@ -16,7 +16,7 @@ This database has an initial file where the quiz questions are stored, the app w
 
 ## REST API Methods used
 
-### get('/query?current=<<question-id>>')
+### get('/query?current=(question-id)')
 
 This method will return the question record, if question-id has a valid value.
 
