@@ -1,7 +1,7 @@
 /*
  *
- *  -- Node JS MAster class first example RESTfull API deployment
- *
+ *  -- NodeJS MAster class first example RESTfull API deployment
+ *  -- version developed for Teamway Challenge
  */
 
   //
@@ -16,18 +16,20 @@
   import helpers from './lib/helpers.js';
   import data from './lib/data.js'
 
-  // import http from 'http'; /Only in modules....
+  
+  // START DATABASE
+  //
+
+  if (data.init()) {
+    console.log("DB OFF");
+    process.exit(1);
+  }
 
   //
   // Server should respond to all requests with a string
 
   //
   // Instantiate HTTP SERVER
-
-  if (data.init()) {
-    console.log("DB OFF");
-    process.exit(1);
-  }
 
   const httpServer = http.createServer( (req, res) => {
     unifiedServer(req, res);
@@ -63,10 +65,16 @@
 
   	const header = req.headers;
 
-  	// Get the payload when it's there
+    //
+    // The string_decoder module provides an API for decoding Buffer
+    // objects into strings in a manner that preserves encoded 
+    // multi-byte UTF-8 and UTF-16 characters. 
+  	
   	const decoder = new StringDecoder('utf-8');
   	let buffer = '';
 
+    // Get the payload when it's available as ReadableStream Interface
+    // by acessing the on and end methods
   	req.on('data', (data) => {
   		buffer += decoder.write(data);
   	});
@@ -138,7 +146,7 @@
   			res.end(payloadString);
 
   			// Log response info
-  			console.log('Response sent with code:', statusCode);
+  			// console.log('Response sent with code:', statusCode);
   		});
 
   	});
